@@ -1,6 +1,6 @@
 /* HeroDetailComponent's private CSS styles */
 label {
-    color: #435960;
+    color: #74d8f7;
     font-weight: bold;
 }
 
@@ -18,7 +18,8 @@ button {
 }
 
 button:hover {
-    background-color: #cfd8dc;
+    background-color: #04354b;
+    color: antiquewhite;
 }
 
 button:disabled {
