@@ -12,9 +12,9 @@
 
 <ul class="heroes list-group">
     <li *ngFor="let hero of heroes" class="list-group-item">
-        <button type="button" class="btn">
-        <a routerLink="/detail/{{hero.id}}">
-            <span class="badge bg-secondary">{{hero.id}}</span> {{hero.name}}
+        <button type="button" class="btn btn-lg">
+        <a routerLink="/detail/{{hero.id}}" class="btn btn-hero">
+            <span class="badge bg-secondary position-justify">{{hero.id}}</span> {{hero.name}}
         </a>
         </button>
         <button type="button" class="delete btn btn-outline-info" title="delete hero" (click)="delete(hero)">
