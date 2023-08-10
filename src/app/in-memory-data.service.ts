@@ -18,10 +18,10 @@ export class InMemoryDataService implements InMemoryDbService {
       { id: 5, name:'SuperDonkeyKong' },
       { id: 6, name:'SuperWario' },
       { id: 7, name: 'SuperRamona' },
-      { id: 8, name: 'SuperThomas' },
-      { id: 9, name: 'SuperMichael' },
+      { id: 8, name: 'SuperThomass' },
+      { id: 9, name: 'SuperMichaels' },
       { id: 10, name: 'SuperDenis' },
-      { id: 11, name: 'SuperDaniel' },
+      { id: 11, name: 'SuperDaniels' },
       { id: 12, name: 'SuperPaul' },
       { id: 13, name: 'SuperTarek' },
       { id: 14, name: 'SuperLaurens' },
@@ -31,7 +31,12 @@ export class InMemoryDataService implements InMemoryDbService {
       { id: 18, name: 'SuperRoman' },
       { id: 19, name: 'SuperImo' },
       { id: 20, name: 'SuperAnthony' },
-      { id: 21, name: 'SuperFabian' }
+      { id: 21, name: 'SuperFabian' },
+      { id: 22, name: 'SuperSven' },
+      { id: 23, name: 'SuperMartin' },
+      { id: 24, name: 'SuperTanja' },
+      { id: 25, name: 'SuperSteffen' },
+      { id: 26, name: 'SuperCarsten' }
     ];
     return {heroes};
   }

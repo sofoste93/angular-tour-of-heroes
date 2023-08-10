@@ -13,13 +13,15 @@ button {
     margin-top: 20px;
     margin-right: .5rem;
     background-color: #eee;
+    color: black;
     padding: 1rem;
     border-radius: 4px;
     font-size: 1rem;
 }
 
 button:hover {
-    background-color: #cfd8dc;
+    background-color: #010c11;
+    color: gold;
 }
 
 button:disabled {
