@@ -1,10 +1,12 @@
-<div *ngIf="messageService.messages.length">
+<div *ngIf="messageService.messages.length" class="card-body footer position-absolute bottom-0 start-50 translate-middle-x my-5 text-center">
 
-    <h2>Messages</h2>
-    <button type="button" class="clear" (click)="messageService.clear()">
+    <h2 class="card-title">Messages</h2>
+    <div class="card-text">
+    <button type="button" class="clear" (click)="messageService.clear()" class="btn btn-outline-warning btn-lg">
         Clear messages
     </button>
-    <div *ngFor='let message of messageService.messages'> 
+    </div>
+    <div *ngFor='let message of messageService.messages' class="card-footer text-muted"> 
         {{message}} 
     </div>
 
